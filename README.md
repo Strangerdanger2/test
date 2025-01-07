@@ -1,1 +1,1 @@
-# test
+# Šī programma aprēķinās cik ilgs laiks ir vajadzīgs, lai noskatītos kādu šovu.
