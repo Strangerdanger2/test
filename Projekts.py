@@ -40,3 +40,6 @@ def main():
     ep_gar_dic, ep_lenght, watch_min, koef = ievadi_papildus_datus()
     total_time_min, diena, leftover_min, reserve_h, min = aprekins(ep, ep_gar_dic, ep_lenght, watch_min, koef)
     izvade(nosaukums, total_time_min, diena, leftover_min, reserve_h, min)
+
+if __name__ == "__main__":
+    main()
