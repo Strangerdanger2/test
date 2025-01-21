@@ -33,7 +33,7 @@ def izvade(nosaukums, total_time_min, diena, leftover_min, reserve_h, min):
           f'{diena:.0f} Dienas, atlikušās min: {leftover_min:.0f}, '
           f'{reserve_h:.0f} pilnas stundas, {min:.0f} min.')
 
-# Galvenā programma
+
 def main():
     nosaukums, sez = ievaddati()
     epizodes_skaits = ievadi_ep_skaitu(sez)
