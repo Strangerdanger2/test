@@ -12,12 +12,12 @@ sez=int(input('Cik sezonu ir šim šovam? '))
 # Cikls kas saglabā cik episožu ir katrā sezonā.
 while a < sez:
     a += 1
-    item=int(input(f'Ievadiet episožu sk {a}. sezonā. '))
+    item=int(input(f'Ievadiet epizožu sk {a}. sezonā. '))
     list.append(item)
 
 ep = sum(list)
 ep_gar_dic={'īsa':20, 'vidēji īsa':30, 'vidēja':40, 'vidēji gara':50, 'gara': 60}
-ep_lenght=(input('Ievadiet episodes garumu (Īsa (20min), vidēji īsa (30 min), vidēja(40 min), vidēji gara (50 min), gara (60 min)): ').lower())
+ep_lenght=(input('Ievadiet epizodes garumu (Īsa (20min), vidēji īsa (30 min), vidēja(40 min), vidēji gara (50 min), gara (60 min)): ').lower())
 watch_min=int(input('Cik min dienā jūs varat skatīties? '))
 koef=float(input('Ievadiet skatīšanās laika koef (x0.5, x1, x1.5, x2) '))
 
