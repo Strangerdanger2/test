@@ -28,9 +28,9 @@ def aprekins(ep, ep_gar_dic, ep_lenght, watch_min, koef):
     return total_time_min, diena, leftover_min, reserve_h, min
 
 def izvade(nosaukums, total_time_min, diena, leftover_min, reserve_h, min):
-    print(f'Jūs šovu {nosaukums}, skatīsieties: Kopējās min {total_time_min:.0f}, '
-          f'Cik dienas tas aizņems {diena:.0f}, palikušās min {leftover_min:.0f}, '
-          f'Cik pilnu stundu palika {reserve_h:.0f}, cik min palika {min:.0f}')
+    print(f'Šovs {nosaukums}, kopā aizņems: {total_time_min:.0f} min, '
+          f'{diena:.0f} Dienas, atlikušās min: {leftover_min:.0f}, '
+          f'{reserve_h:.0f} pilnas stundas, {min:.0f} min')
 
 # Galvenā programma
 def main():
