@@ -14,7 +14,8 @@ def ievadi_ep_skaitu(sez):
 
 def ievadi_papildus_datus():
     ep_gar_dic = {'īsa': 20, 'vidēji īsa': 30, 'vidēja': 40, 'vidēji gara': 50, 'gara': 60}
-    ep_lenght = input('Ievadiet epizodes garumu (Īsa (20min), vidēji īsa (30 min), vidēja(40 min), vidēji gara (50 min), gara (60 min)): ').lower()
+    ep_lenght = input('Ievadiet epizodes garumu (Īsa (20min), vidēji īsa (30 min), vidēja(40 min), vidēji gara (50 min),'
+                      'gara (60 min)): ').lower()
     watch_min = int(input('Cik min dienā jūs varat skatīties? '))
     koef = float(input('Ievadiet skatīšanās laika koef (x0.5, x1, x1.5, x2) '))
     return ep_gar_dic, ep_lenght, watch_min, koef
@@ -30,7 +31,7 @@ def aprekins(ep, ep_gar_dic, ep_lenght, watch_min, koef):
 def izvade(nosaukums, total_time_min, diena, leftover_min, reserve_h, min):
     print(f'Šovs {nosaukums}, kopā aizņems: {total_time_min:.0f} min, '
           f'{diena:.0f} Dienas, atlikušās min: {leftover_min:.0f}, '
-          f'{reserve_h:.0f} pilnas stundas, {min:.0f} min')
+          f'{reserve_h:.0f} pilnas stundas, {min:.0f} min.')
 
 # Galvenā programma
 def main():
