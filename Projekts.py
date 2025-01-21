@@ -20,7 +20,6 @@ ep_gar_dic={'īsa':20, 'vidēji īsa':30, 'vidēja':40, 'vidēji gara':50, 'gara
 ep_lenght=(input('Ievadiet episodes garumu (Īsa (20min), vidēji īsa (30 min), vidēja(40 min), vidēji gara (50 min), gara (60 min)): ').lower())
 watch_min=int(input('Cik min dienā jūs varat skatīties? '))
 koef=float(input('Ievadiet skatīšanās laika koef (x0.5, x1, x1.5, x2) '))
-#break_between_ep=int('Ievadiet pauzi starp epizodēm. Piem.(10, 15, 20 min) ')
 
 # Aprēķins
 
